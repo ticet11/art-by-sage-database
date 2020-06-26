@@ -1,13 +1,13 @@
 {
     "name": "art-by-sage-database",
     "version": "0.1.0",
+    "engines": {
+        "node": "13.12.0"
+    },
     "description": "",
     "main": "index.js",
     "directories": {
         "doc": "docs"
-    },
-    "engines": {
-        "node": "13.12.0"
     },
     "scripts": {
         "devStart": "nodemon server.js",
