@@ -16,7 +16,7 @@ db.once("open", () => console.log("Connected to Database"));
 app.use(
     cors({
         credentials: true,
-        origin: "http://localhost:3001",
+        origin: "https://art-by-sage.herokuapp.com/",
     })
 );
 app.use(express.json());
