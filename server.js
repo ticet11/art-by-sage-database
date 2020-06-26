@@ -30,4 +30,6 @@ app.use("/users", userRouter);
 const mailRouter = require("./routes/mail");
 app.use("/mail", mailRouter);
 
-app.listen(3000, () => console.log("Server Started"));
+app.listen(process.env.PORT || 3000, () =>
+    console.log("Server Started")
+);
